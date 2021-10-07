@@ -1,0 +1,18 @@
+{
+  "name": "bedziedzialac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "es-module-shims": "^0.14.0",
+    "importly": "^0.1.0-dev.4",
+    "lit": "^2.0.0",
+    "typescript": "^4.4.3"
+  }
+}
