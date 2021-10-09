@@ -1,6 +1,7 @@
-interface CounterState {
-    value: number;
+import { LitElement } from 'lit';
+export declare class SimpleGreeting extends LitElement {
+    #private;
+    static styles: import("lit").CSSResult;
+    name: string;
+    render(): import("lit-html").TemplateResult<1>;
 }
-export declare const increment: import("@reduxjs/toolkit").ActionCreatorWithoutPayload<string>, decrement: import("@reduxjs/toolkit").ActionCreatorWithoutPayload<string>, incrementByAmount: import("@reduxjs/toolkit").ActionCreatorWithOptionalPayload<number, string>;
-declare const _default: import("redux").Reducer<CounterState, import("redux").AnyAction>;
-export default _default;
