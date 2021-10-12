@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"build": "tsc && importly < package-lock.json > x/importmap.json",
+   	"watch": "tsc -w",	
+    	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",

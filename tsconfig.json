@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    // "rootDir": "s",
-    "outDir": "./",
+    "rootDir": "s",
+    "outDir": "x",
     "target": "es2020",
     "lib": ["esnext", "dom"],
     "module": "esnext",
@@ -11,6 +11,6 @@
     "sourceMap": true,
     "declaration": true
   },
-  "include": ["**/*"],
+  "include": ["s/**/*.ts", "s/**/*.js"],
   "exclude": ["s/**/_*"]
 }
